@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Projects by Ertugrul Karademir</title>
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300i,900" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<style>
+body {
+  font-family: 'Merriweather', serif;;
+}
+
+h1,h2,h3,h4{
+  font-weight: 900;
+}
+
+p {
+  font-style: italic;
+  font-weight: 300;
+}
+
+footer {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+</style>
+</head>
+
+<body>
+<div class="container-fluid">
+
+{{CONTENT}}
+<footer>
+  <nav>
+    <a class="btn btn-default" href="http://ekarademir.com">Personal</a>
+    <a class="btn btn-default" href="http://ekarademir.com/cv.html">CV</a>
+  </nav>
+</footer>
+
+</div>
+</body>
+</html>
