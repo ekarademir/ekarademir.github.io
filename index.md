@@ -1,6 +1,6 @@
 # What is this?
 
-[Go down to the Projects section](#projects)
+**[Go down to the Projects section](#projects)**
 
 I have been coding since I was 15. I've started with Visual Basic and then dove into web. Since then I've been consuming all sorts of knowledge on programming, algorithms, and computers in general.
 
@@ -21,3 +21,15 @@ Enjoy!
 
 <a name="projects"></a>
 # Projects
+### What were you born for?
+
+If you feel like you are in rut and suspect that it has something to do with your birthday, you might soon be able to find out. In this project I'm collecting birthdays of well known people and matching their zodiac signs with their occupation.
+
+I know that there is no correlation between zodiac signs and occupations (with anything really), but it's an excuse for me to scrape Wikipedia and get me some data.
+
+I've done the first iteration. The **raw results** are here: [data-wikibdays-occupations.csv][wikibdays]. I am yet to implement a visualisation page. But it is coming!
+
+If you are curious about the code that generated above data set you can check the source here: [birthday-wrangler][wikibdays-code].
+
+[wikibdays]:https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations.csv?raw=true
+[wikibdays-code]:https://github.com/ekarademir/birthday-wrangler
