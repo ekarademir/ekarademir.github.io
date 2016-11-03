@@ -34,7 +34,7 @@ If you are curious about the code that generated above data set you can check th
 [wikibdays]:https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations.csv?raw=true
 [wikibdays-code]:https://github.com/ekarademir/birthday-wrangler
 
-### [Old Projects](https://github.com/ekarademir/old-projects)
+### Old Projects [(GitHub)](https://github.com/ekarademir/old-projects)
 Zip archives of few old projects written in PHP. They are not archaic, but they are quite old. Even though I tried to explain everything in comments, it would take a lot of time to go through. However you are free to download them and use them in whichever capacity that you want to use.
 
 These are developed in and for [Bilkent University](http://w3.bilkent.edu.tr/bilkent/), [Department of Physics](http://physics.bilkent.edu.tr/) as I was the TA responsible for everything web related.
@@ -55,5 +55,5 @@ After one term of usage, the professor was lazy to copy **one** column of the gr
 
 For this project I've used **[Zend Framework](https://framework.zend.com/)**. It was light years ahead of Cake and much more robust. It also offered quite a selection of modules to work with. The ability to use only parts of the framework that are needed was another reason to build on Zend. I would still choose Zend Framework if I am to build another PHP application.
 
-### seniorproject.zip
+#### [seniorproject.zip](https://github.com/ekarademir/old-projects/blob/master/seniorproject.zip)
 This was a project developed in an even shorter time frame, The aim was to emulate peer-review style grading for senior students at the senior project course. Even though it was only used twice, [the website](http://www.fen.bilkent.edu.tr/~physics/seniorproject/index.php) is still operational. Built with Zend Framework.
