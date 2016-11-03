@@ -33,3 +33,20 @@ If you are curious about the code that generated above data set you can check th
 
 [wikibdays]:https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations.csv?raw=true
 [wikibdays-code]:https://github.com/ekarademir/birthday-wrangler
+
+### [Old Projects](https://github.com/ekarademir/old-projects)
+Zip archives of few old projects written in PHP. They are not archaic, but they are quite old. Even though I tried to explain everything in comments, it would take a lot of time to go through. However you are free to download them and use them in whichever capacity that you want to use.
+
+These are developed in and for [Bilkent University](http://w3.bilkent.edu.tr/bilkent/), [Department of Physics](http://physics.bilkent.edu.tr/) as I was the TA responsible for everything web related.
+
+I was also the only developer in these applications. So most of the comments are for myself. In some cases, for the unlucky person who might have wanted to add something to them. I tried to follow all basic project development conventions, but my aim was to ger something going, **_very fast_**. So I had to leave few dirty code here and there (_looks around with shifty eyes._)
+
+A bit of explanation about them:
+
+#### [academic-event-management.zip](https://github.com/ekarademir/old-projects/blob/master/academic-event-management.zip)
+This application was first developed in May 2008 on a hype web application framework of the time: [CakePHP](https://cakephp.org/). I am a bit surprised that it still exists. I don't know their status now, but back then Cake was a well intended PHP. It was quite ambitious. It was just wright for agile development. However, it was also very hard to write clean code. If the project was huge, it's fine; but if you wanted to try a small thing you had to go load an elephant to crack one nut.
+
+After 2008, the app was used at least 10 times in other consequent events. I've improved it at each iteration. This copy might be the 8th or so. It contains the whole framework too. The app handled registration, abstract upload, registrant confirmation, emailing, page publishing, and finally backups. So there is also a DB backup in webroot folder.
+
+#### [physlab.zip](https://github.com/ekarademir/old-projects/blob/master/physlab.zip)
+This one was developed in 2012 summer in 2 weeks. Then it went through 2 months of bug-fixes as it was being used. So I learned quite a lot of project management and application development with this one. After one term of usage, the professor was lazy to copy **one** column of the grade summary data of his class from the application report to an excel file so he decided, it's not worth to use it. And I was too pissed of to write an excel exporter. So the multi-user management part was shelved. However, later on, the same professor decided they needed some sort of a system to find previous grades of repeating students at the start of each term. So I went ahead and added an achival module that could not only import data from excel files, but also search the grades fast. It is still in use!
