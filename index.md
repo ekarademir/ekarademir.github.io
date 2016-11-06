@@ -34,6 +34,15 @@ If you are curious about the code that generated above data set you can check th
 [wikibdays]:https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations.csv?raw=true
 [wikibdays-code]:https://github.com/ekarademir/birthday-wrangler
 
+### Property Listings
+This is a work in progress. My aim is to scrape property listings on a popular listing site in Dublin. I've started with a naive approach that just scrapes rent houses for now. However I'm planning to implement [Scrapy][scrapy] library for more robust approach.
+
+Again, results of the first iteration care here: [data-house-rent-listings.csv][property-data]; and the code is here: [property-crawler][property-crawler]
+
+[scrapy]:https://scrapy.org/
+[property-crawler]:https://github.com/ekarademir/property-crawler
+[property-data]:https://github.com/ekarademir/data-sets/blob/master/data-house-rent-listings.csv
+
 ### Old Projects [(GitHub)](https://github.com/ekarademir/old-projects)
 Zip archives of few old projects written in PHP. They are not archaic, but they are quite old. Even though I tried to explain everything in comments, it would take a lot of time to go through. However you are free to download them and use them in whichever capacity that you want to use.
 
