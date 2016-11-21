@@ -37,7 +37,8 @@ pre {
 }
 
 main {
-  margin: 0 8px;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 footer {
