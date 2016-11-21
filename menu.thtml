@@ -1,0 +1,9 @@
+<input type="checkbox" id="menutoggle" value=""/>
+<div class="menubox">
+<label class="menuicon" for="menutoggle">☰</label>
+<nav>
+  <a class="menu-item" href="./index.html">Home</a>
+  <a class="menu-item" href="./cv.html">CV</a>
+  <a class="menu-item" href="http://projects.ekarademir.com">Projects</a>
+</nav>
+</div>
