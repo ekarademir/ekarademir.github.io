@@ -2,8 +2,9 @@
 <div class="menubox">
 <label class="menuicon" for="menutoggle">☰</label>
 <nav>
-  <a class="menu-item" href="https://ekarademir.com/index.html">Home</a>
-  <a class="menu-item" href="https://ekarademir.com//cv.html">CV</a>
+  <a class="menu-item" href="./index.html">Home</a>
+  <a class="menu-item" href="http://medium.ekarademir.com">Essays</a>
   <a class="menu-item" href="http://projects.ekarademir.com">Projects</a>
+  <a class="menu-item" href="./cv.html">CV</a>
 </nav>
 </div>

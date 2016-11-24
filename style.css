@@ -13,6 +13,7 @@ h1,h2,h3,h4{
 
 img {
   width: 90vw;
+  max-width: 500px;
   margin: 5vw;
 }
 
@@ -38,7 +39,7 @@ pre {
 
 main {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 960px;
 }
 
 footer {
@@ -71,7 +72,7 @@ tr{
 .menubox {
   position: fixed;
   z-index: 0;
-  bottom: -155px;
+  bottom: -190px;
   left: auto;
   right: auto;
   width: 100vw;
@@ -115,11 +116,9 @@ nav {
 }
 
 .menu-item {
-  clear: left;
-  padding: 10px 0px 10px 10px;
+  padding: 10px 10px 10px 10px;
   width: 100%;
-  display: inline-block;
-  /*float: left;*/
+  display: block;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
@@ -145,4 +144,22 @@ nav {
   max-width: 150px;
   float: left;
   transition: 0.5s;
+}
+
+@media (min-width: 500px) {
+  .menubox {
+    bottom: -10px;
+  }
+
+  .menuicon {
+    display: none;
+  }
+
+  .menu-item {
+    float: left;
+    display: inline;
+    width: auto;
+    padding: 10px 20px 10px 10px;
+    font-size: 20px;
+  }
 }
