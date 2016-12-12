@@ -1,14 +1,6 @@
-# What is this?
+# Projects
 
-**[Go down to the Projects section](#projects)**
-
-I have been coding since I was 15. I've started with Visual Basic and then dove into web. Since then I've been consuming all sorts of knowledge on programming, algorithms, and computers in general.
-
-I'm a physicist, but I have worked as web developer, web designer, graphic designer, social media guru, etc. Besides all of those, I am using computation and automation in my own work all the time. I simulate integrated optical devices, I automate experimental setups, I collect data, I analyse data, I visualise data, and so on...
-
-However I am also very interested in other sorts of data. So I've been fiddling around with web scraping and I've been working on visualizing the data I've collected. So here, I am presenting the results of those works, both the codes and the data.
-
-Since these are very small projects, I intend to list them on one page (with explanations.) However, if a project becomes more involved, then it'll have it's own page.
+These are my personal projects that I've been deevloping mostly out of curiosity and to improve my skills. I intend to list them on one page (with explanations.) However, if a project becomes more involved, then it'll have it's own page.
 
 If you have any questions or comments, you can contact me through these channels:
 
@@ -19,19 +11,39 @@ If you have any questions or comments, you can contact me through these channels
 
 Enjoy!
 
-<a name="projects"></a>
-# Projects
-### What were you born for?
+# Electromagnetic Modelling
+
+### Genetic Search for Photonic Integrated Circuits
+
+I've implemented a genetic search algorithm for desiging a Polarisation Beam Splitter (PBS). A detail write-up is coming soon.
+
+[Project's GitHub](https://github.com/ekarademir/pic-ml)
+
+### ToyFDTD in Python with Numba
+
+I've ported the ToyFDTD code written by Laurie E. Miller, Paul Hayes, Matthew O'Keefe from C to Python. I'm using advantages of [numpy.ndarray](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.html) together with llvm sugars of [Numba](http://numba.pydata.org/). I've also implemented a CUDA version.
+
+I'm discussing my learning journey of CUDA on Numba [here](https://medium.ekarademir.com/speed-tests-with-python-numba-library-47dabf72743d).
+
+* Python port of ToyFDTD using numba, optimized for cpu on [GitHub](https://github.com/ekarademir/py-fdtd/blob/master/learning/fdtd-tests/toyfdtd_numba.py)
+
+* The same implementation with CUDA support on [GitHub](https://github.com/ekarademir/py-fdtd/blob/master/learning/fdtd-tests/toyfdtd_numba_cuda.py)
+
+# Data Mining
+
+### Data mining from Wikipedia
 
 If you feel like you are in rut and suspect that it has something to do with your birthday, you might soon be able to find out. In this project I'm collecting birthdays of well known people and matching their zodiac signs with their occupation.
 
 I know that there is no correlation between zodiac signs and occupations (with anything really), but it's an excuse for me to scrape Wikipedia and get me some data.
 
-**Second iteration is here!**: [data-wikibdays-occupations-v2.csv][wikibdaysv2]. You can still access the first iteration results: [data-wikibdays-occupations.csv][wikibdays].
+**Crawling approach:** I've explained my approach [in this essay](https://medium.ekarademir.com/crawling-wikipedia-for-birthdays-54634a71679).
 
-I am yet to implement a visualisation page. But it is coming!
+**Data Set **: v2 [data-wikibdays-occupations-v2.csv][wikibdaysv2]. v1: [data-wikibdays-occupations.csv][wikibdays].
 
 If you are curious about the code that generated above data set you can check the source here: [birthday-wrangler][wikibdays-code].
+
+I am yet to implement a visualisation page. But it is coming!
 
 [wikibdays]:https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations.csv
 [wikibdaysv2]:https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations-v2.csv
@@ -46,7 +58,7 @@ Again, results of the first iteration care here: [data-house-rent-listings.csv][
 [property-crawler]:https://github.com/ekarademir/property-crawler
 [property-data]:https://github.com/ekarademir/data-sets/blob/master/data-house-rent-listings.csv
 
-### Old Projects [(GitHub)](https://github.com/ekarademir/old-projects)
+# Old Projects [(GitHub)](https://github.com/ekarademir/old-projects)
 Zip archives of few old projects written in PHP. They are not archaic, but they are quite old. Even though I tried to explain everything in comments, it would take a lot of time to go through. However you are free to download them and use them in whichever capacity that you want to use.
 
 These are developed in and for [Bilkent University](http://w3.bilkent.edu.tr/bilkent/), [Department of Physics](http://physics.bilkent.edu.tr/) as I was the TA responsible for everything web related.

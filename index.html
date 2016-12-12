@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>What is this</title>
+<title>Projects</title>
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300,900|Open+Sans:400,700|Source+Code+Pro:400" rel="stylesheet">
 <link href="./style.css" rel="stylesheet"/>
 
@@ -13,12 +13,8 @@
 <body>
 
 <main>
-<h1>What is this?</h1>
-<p><strong><a href="#projects">Go down to the Projects section</a></strong></p>
-<p>I have been coding since I was 15. I've started with Visual Basic and then dove into web. Since then I've been consuming all sorts of knowledge on programming, algorithms, and computers in general.</p>
-<p>I'm a physicist, but I have worked as web developer, web designer, graphic designer, social media guru, etc. Besides all of those, I am using computation and automation in my own work all the time. I simulate integrated optical devices, I automate experimental setups, I collect data, I analyse data, I visualise data, and so on...</p>
-<p>However I am also very interested in other sorts of data. So I've been fiddling around with web scraping and I've been working on visualizing the data I've collected. So here, I am presenting the results of those works, both the codes and the data.</p>
-<p>Since these are very small projects, I intend to list them on one page (with explanations.) However, if a project becomes more involved, then it'll have it's own page.</p>
+<h1>Projects</h1>
+<p>These are my personal projects that I've been deevloping mostly out of curiosity and to improve my skills. I intend to list them on one page (with explanations.) However, if a project becomes more involved, then it'll have it's own page.</p>
 <p>If you have any questions or comments, you can contact me through these channels:</p>
 <ul>
 <li>Email: <a href="mailto:ekarademir@gmail.com">ekarademir@gmail.com</a></li>
@@ -27,18 +23,33 @@
 <li>Twitter: <a href="https://twitter.com/plexcitonic">plexcitonic</a></li>
 </ul>
 <p>Enjoy!</p>
-<p><a name="projects"></a></p>
-<h1>Projects</h1>
-<h3>What were you born for?</h3>
+<h1>Electromagnetic Modelling</h1>
+<h3>Genetic Search for Photonic Integrated Circuits</h3>
+<p>I've implemented a genetic search algorithm for desiging a Polarisation Beam Splitter (PBS). A detail write-up is coming soon.</p>
+<p><a href="https://github.com/ekarademir/pic-ml">Project's GitHub</a></p>
+<h3>ToyFDTD in Python with Numba</h3>
+<p>I've ported the ToyFDTD code written by Laurie E. Miller, Paul Hayes, Matthew O'Keefe from C to Python. I'm using advantages of <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.html">numpy.ndarray</a> together with llvm sugars of <a href="http://numba.pydata.org/">Numba</a>. I've also implemented a CUDA version.</p>
+<p>I'm discussing my learning journey of CUDA on Numba <a href="https://medium.ekarademir.com/speed-tests-with-python-numba-library-47dabf72743d">here</a>.</p>
+<ul>
+<li>
+<p>Python port of ToyFDTD using numba, optimized for cpu on <a href="https://github.com/ekarademir/py-fdtd/blob/master/learning/fdtd-tests/toyfdtd_numba.py">GitHub</a></p>
+</li>
+<li>
+<p>The same implementation with CUDA support on <a href="https://github.com/ekarademir/py-fdtd/blob/master/learning/fdtd-tests/toyfdtd_numba_cuda.py">GitHub</a></p>
+</li>
+</ul>
+<h1>Data Mining</h1>
+<h3>Data mining from Wikipedia</h3>
 <p>If you feel like you are in rut and suspect that it has something to do with your birthday, you might soon be able to find out. In this project I'm collecting birthdays of well known people and matching their zodiac signs with their occupation.</p>
 <p>I know that there is no correlation between zodiac signs and occupations (with anything really), but it's an excuse for me to scrape Wikipedia and get me some data.</p>
-<p><strong>Second iteration is here!</strong>: <a href="https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations-v2.csv">data-wikibdays-occupations-v2.csv</a>. You can still access the first iteration results: <a href="https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations.csv">data-wikibdays-occupations.csv</a>.</p>
-<p>I am yet to implement a visualisation page. But it is coming!</p>
+<p><strong>Crawling approach:</strong> I've explained my approach <a href="https://medium.ekarademir.com/crawling-wikipedia-for-birthdays-54634a71679">in this essay</a>.</p>
+<p><strong>Data Set </strong>: v2 <a href="https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations-v2.csv">data-wikibdays-occupations-v2.csv</a>. v1: <a href="https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations.csv">data-wikibdays-occupations.csv</a>.</p>
 <p>If you are curious about the code that generated above data set you can check the source here: <a href="https://github.com/ekarademir/birthday-wrangler">birthday-wrangler</a>.</p>
+<p>I am yet to implement a visualisation page. But it is coming!</p>
 <h3>Property Listings</h3>
 <p>This is a work in progress. My aim is to scrape property listings on a popular listing site in Dublin. I've started with a naive approach that just scrapes rent houses for now. However I'm planning to implement <a href="https://scrapy.org/">Scrapy</a> library for more robust approach.</p>
 <p>Again, results of the first iteration care here: <a href="https://github.com/ekarademir/data-sets/blob/master/data-house-rent-listings.csv">data-house-rent-listings.csv</a>; and the code is here: <a href="https://github.com/ekarademir/property-crawler">property-crawler</a></p>
-<h3>Old Projects <a href="https://github.com/ekarademir/old-projects">(GitHub)</a></h3>
+<h1>Old Projects <a href="https://github.com/ekarademir/old-projects">(GitHub)</a></h1>
 <p>Zip archives of few old projects written in PHP. They are not archaic, but they are quite old. Even though I tried to explain everything in comments, it would take a lot of time to go through. However you are free to download them and use them in whichever capacity that you want to use.</p>
 <p>These are developed in and for <a href="http://w3.bilkent.edu.tr/bilkent/">Bilkent University</a>, <a href="http://physics.bilkent.edu.tr/">Department of Physics</a> as I was the TA responsible for everything web related.</p>
 <p>I was also the only developer in these applications. So most of the comments are for myself. In some cases, for the unlucky person who might have wanted to add something to them. I tried to follow all basic project development conventions, but my aim was to ger something going, <strong><em>very fast</em></strong>. So I had to leave few dirty code here and there (<em>looks around with shifty eyes.</em>)</p>
