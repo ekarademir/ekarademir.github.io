@@ -1,6 +1,6 @@
 # Projects
 
-These are my personal projects that I've been deevloping mostly out of curiosity and to improve my skills. I intend to list them on one page (with explanations.) However, if a project becomes more involved, then it'll have it's own page.
+These are my personal projects that I've been developing mostly out of curiosity and to improve my skills. I intend to list them on one page (with explanations.) However, if a project becomes more involved, it'll have a dedicated page.
 
 If you have any questions or comments, you can contact me through these channels:
 
@@ -15,13 +15,13 @@ Enjoy!
 
 ### Genetic Search for Photonic Integrated Circuits
 
-I've implemented a genetic search algorithm for desiging a Polarisation Beam Splitter (PBS). A detail write-up is coming soon.
+I've implemented a genetic search algorithm for desiging a Polarisation Beam Splitter (PBS). A detailed write-up is coming soon.
 
 [Project's GitHub](https://github.com/ekarademir/pic-ml)
 
 ### ToyFDTD in Python with Numba
 
-I've ported the ToyFDTD code written by Laurie E. Miller, Paul Hayes, Matthew O'Keefe from C to Python. I'm using advantages of [numpy.ndarray](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.html) together with llvm sugars of [Numba](http://numba.pydata.org/). I've also implemented a CUDA version.
+I've ported the [ToyFDTD](http://dougneubauer.com/fdtd/) code written by Laurie E. Miller, Paul Hayes, Matthew O'Keefe from C to Python. I'm using advantages of [numpy.ndarray](https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.html) together with llvm sugars of [Numba](http://numba.pydata.org/). I've also implemented a CUDA version.
 
 I'm discussing my learning journey of CUDA on Numba [here](https://medium.ekarademir.com/speed-tests-with-python-numba-library-47dabf72743d).
 
