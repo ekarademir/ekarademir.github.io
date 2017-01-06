@@ -11,6 +11,12 @@ If you have any questions or comments, you can contact me through these channels
 
 Enjoy!
 
+# Minesweeper Clone
+
+I've developed a minesweeper clone to improve my JavaScript skills. It's written in [VanillaJS](http://vanilla-js.com/).
+
+[Click here to play it!](http://projects.ekarademir.com/mines/)
+
 # Electromagnetic Modelling
 
 ### Genetic Search for Photonic Integrated Circuits
