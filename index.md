@@ -11,11 +11,21 @@ If you have any questions or comments, you can contact me through these channels
 
 Enjoy!
 
+# Tetris Clone
+
+Another browser based clone of a well known game. This was to imrove my vanilla JavaScript and canvas skills.
+
+[Click here to play it!](http://projects.ekarademir.com/tetr/)
+
+[Click here for GitHub repo](https://github.com/ekarademir/tetr)
+
 # Minesweeper Clone
 
 I've developed a minesweeper clone to improve my JavaScript skills. It's written in [VanillaJS](http://vanilla-js.com/).
 
 [Click here to play it!](http://projects.ekarademir.com/mines/)
+
+[Click here for GitHub repo](https://github.com/ekarademir/mines)
 
 # Electromagnetic Modelling
 
