@@ -1,104 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Projects</title>
-<link href="https://fonts.googleapis.com/css?family=Merriweather:300,900|Open+Sans:400,700|Source+Code+Pro:400" rel="stylesheet">
-<link href="./style.css" rel="stylesheet"/>
-
-
-</head>
-
-<body>
-
-<main>
-<h1>Projects</h1>
-<p>These are my personal projects that I've been developing mostly out of curiosity and to improve my skills. I intend to list them on one page (with explanations.) However, if a project becomes more involved, it'll have a dedicated page.</p>
-<p>If you have any questions or comments, you can contact me through these channels:</p>
-<ul>
-<li>Email: <a href="mailto:ekarademir@gmail.com">ekarademir@gmail.com</a></li>
-<li>LinkedIn: <a href="https://ie.linkedin.com/in/ekarademir">ekarademir</a></li>
-<li>GitHub: <a href="https://github.com/ekarademir">ekarademir</a></li>
-<li>Twitter: <a href="https://twitter.com/plexcitonic">plexcitonic</a></li>
-</ul>
-<p>Enjoy!</p>
-<h1>Tetris Clone</h1>
-<p>Another browser based clone of a well known game. This was to imrove my vanilla JavaScript and canvas skills.</p>
-<p><a href="http://projects.ekarademir.com/tetr/">Click here to play it!</a></p>
-<p><a href="https://github.com/ekarademir/tetr">Click here for GitHub repo</a></p>
-<h1>Minesweeper Clone</h1>
-<p>I've developed a minesweeper clone to improve my JavaScript skills. It's written in <a href="http://vanilla-js.com/">VanillaJS</a>.</p>
-<p><a href="http://projects.ekarademir.com/mines/">Click here to play it!</a></p>
-<p><a href="https://github.com/ekarademir/mines">Click here for GitHub repo</a></p>
-<h1>Electromagnetic Modelling</h1>
-<h3>Genetic Search for Photonic Integrated Circuits</h3>
-<p>I've implemented a genetic search algorithm for desiging a Polarisation Beam Splitter (PBS). A detailed write-up is coming soon.</p>
-<p><a href="https://github.com/ekarademir/pic-ml">Project's GitHub</a></p>
-<h3>ToyFDTD in Python with Numba</h3>
-<p><img src="./img/toyFDTD.png"/></p>
-<p>I've ported the <a href="http://dougneubauer.com/fdtd/">ToyFDTD</a> code written by Laurie E. Miller, Paul Hayes, Matthew O'Keefe from C to Python. I'm using advantages of <a href="https://docs.scipy.org/doc/numpy/reference/generated/numpy.ndarray.html">numpy.ndarray</a> together with llvm sugars of <a href="http://numba.pydata.org/">Numba</a>. I've also implemented a CUDA version.</p>
-<p>I'm discussing my learning journey of CUDA on Numba <a href="https://medium.ekarademir.com/speed-tests-with-python-numba-library-47dabf72743d">here</a>.</p>
-<ul>
-<li>
-<p>Python port of ToyFDTD using numba, optimized for cpu on <a href="https://github.com/ekarademir/py-fdtd/blob/master/learning/fdtd-tests/toyfdtd_numba.py">GitHub</a></p>
-</li>
-<li>
-<p>The same implementation with CUDA support on <a href="https://github.com/ekarademir/py-fdtd/blob/master/learning/fdtd-tests/toyfdtd_numba_cuda.py">GitHub</a></p>
-</li>
-</ul>
-<h1>Data Mining</h1>
-<h3>Data mining from Wikipedia</h3>
-<p>If you feel like you are in rut and suspect that it has something to do with your birthday, you might soon be able to find out. In this project I'm collecting birthdays of well known people and matching their zodiac signs with their occupation.</p>
-<p>I know that there is no correlation between zodiac signs and occupations (with anything really), but it's an excuse for me to scrape Wikipedia and get me some data.</p>
-<p><strong>Crawling approach:</strong> I've explained my approach <a href="https://medium.ekarademir.com/crawling-wikipedia-for-birthdays-54634a71679">in this essay</a>.</p>
-<p><strong>Data Set </strong>: v2 <a href="https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations-v2.csv">data-wikibdays-occupations-v2.csv</a>. v1: <a href="https://github.com/ekarademir/data-sets/blob/master/data-wikibdays-occupations.csv">data-wikibdays-occupations.csv</a>.</p>
-<p>If you are curious about the code that generated above data set you can check the source here: <a href="https://github.com/ekarademir/birthday-wrangler">birthday-wrangler</a>.</p>
-<p>I am yet to implement a visualisation page. But it is coming!</p>
-<h3>Property Listings</h3>
-<p>This is a work in progress. My aim is to scrape property listings on a popular listing site in Dublin. I've started with a naive approach that just scrapes rent houses for now. However I'm planning to implement <a href="https://scrapy.org/">Scrapy</a> library for more robust approach.</p>
-<p>Again, results of the first iteration care here: <a href="https://github.com/ekarademir/data-sets/blob/master/data-house-rent-listings.csv">data-house-rent-listings.csv</a>; and the code is here: <a href="https://github.com/ekarademir/property-crawler">property-crawler</a></p>
-<h1>Old Projects <a href="https://github.com/ekarademir/old-projects">(GitHub)</a></h1>
-<p>Zip archives of few old projects written in PHP. They are not archaic, but they are quite old. Even though I tried to explain everything in comments, it would take a lot of time to go through. However you are free to download them and use them in whichever capacity that you want to use.</p>
-<p>These are developed in and for <a href="http://w3.bilkent.edu.tr/bilkent/">Bilkent University</a>, <a href="http://physics.bilkent.edu.tr/">Department of Physics</a> as I was the TA responsible for everything web related.</p>
-<p>I was also the only developer in these applications. So most of the comments are for myself. In some cases, for the unlucky person who might have wanted to add something to them. I tried to follow all basic project development conventions, but my aim was to ger something going, <strong><em>very fast</em></strong>. So I had to leave few dirty code here and there (<em>looks around with shifty eyes.</em>)</p>
-<p>A bit of explanation about them:</p>
-<h4><a href="https://github.com/ekarademir/old-projects/blob/master/academic-event-management.zip">academic-event-management.zip</a></h4>
-<p>This application was first developed in May 2008 on a hype web application framework of the time: <a href="https://cakephp.org/">CakePHP</a>. I am a bit surprised that it still exists. I don't know their status now, but back then Cake was a well intended PHP. It was quite ambitious. It was just wright for agile development. However, it was also very hard to write clean code. If the project was huge, it's fine; but if you wanted to try a small thing you had to go load an elephant to crack one nut.</p>
-<p>After 2008, the app was used at least 10 times in other consequent events. I've improved it at each iteration. This copy might be the 8th or so. It contains the whole framework too. The app handled registration, abstract upload, registrant confirmation, emailing, page publishing, and finally backups. So there is also a DB backup in webroot folder.</p>
-<h4><a href="https://github.com/ekarademir/old-projects/blob/master/physlab.zip">physlab.zip</a></h4>
-<p>This one was developed in 2012 summer in 2 weeks. Then it went through 2 months of bug-fixes as it was being used. So I learned quite a lot of project management and application development with this one. It offered classroom management, grade updates by assistants, grade confirmation by TA manager, an online chat box, database backup, etc.</p>
-<p>After one term of usage, the professor was lazy to copy <strong>one</strong> column of the grade summary data of his class from the application report to an excel file so he decided, it's not worth to use it. And I was too pissed of to write an excel exporter. So the multi-user management part was shelved. However, later on, the same professor decided they needed some sort of a system to find previous grades of repeating students at the start of each term. So I went ahead and added an archival module that could not only import data from excel files, but also search the grades fast. It is still in use!</p>
-<p>For this project I've used <strong><a href="https://framework.zend.com/">Zend Framework</a></strong>. It was light years ahead of Cake and much more robust. It also offered quite a selection of modules to work with. The ability to use only parts of the framework that are needed was another reason to build on Zend. I would still choose Zend Framework if I am to build another PHP application.</p>
-<h4><a href="https://github.com/ekarademir/old-projects/blob/master/seniorproject.zip">seniorproject.zip</a></h4>
-<p>This was a project developed in an even shorter time frame, The aim was to emulate peer-review style grading for senior students at the senior project course. Even though it was only used twice, <a href="http://www.fen.bilkent.edu.tr/~physics/seniorproject/index.php">the website</a> is still operational. Built with Zend Framework.</p>
-</main>
-<footer>
-<input type="checkbox" id="menutoggle" value=""/>
-<div class="menubox">
-<label class="menuicon" for="menutoggle">=</label>
-<nav>
-  <a class="menu-item" href="https://ekarademir.com/index.html">Home</a>
-  <a class="menu-item" href="https://medium.ekarademir.com">Essays</a>
-  <a class="menu-item" href="https://projects.ekarademir.com">Projects</a>
-  <a class="menu-item" href="https://ekarademir.com/cv.html">CV</a>
-</nav>
-</div>
-
-</footer>
-
-
-
-</body>
-<script>
-
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-86826477-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ertugrul Karademir</title>
+    <meta name="description" content="">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.7661f395.css" as="style"><link rel="preload" href="/assets/js/app.1e446266.js" as="script"><link rel="preload" href="/assets/js/3.9b453d47.js" as="script"><link rel="prefetch" href="/assets/js/2.bf64c2f6.js"><link rel="prefetch" href="/assets/js/4.e3d4f6bf.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7661f395.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-exact-active router-link-active"></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><!---->  <!----> </div> <div class="page"> <div class="content"><h1 id="ertugrul-karademir"><a href="#ertugrul-karademir" aria-hidden="true" class="header-anchor">#</a> Ertugrul Karademir</h1></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/assets/js/app.1e446266.js" defer></script><script src="/assets/js/3.9b453d47.js" defer></script>
+  </body>
 </html>
