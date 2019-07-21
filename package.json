@@ -1,0 +1,19 @@
+{
+  "name": "ekarademir.github.io",
+  "version": "2.0.0",
+  "description": "Personal Website Built with VuePress",
+  "main": "index.js",
+  "scripts": {
+    "build": "vuepress build -d dist src && cp -R ./dist/ ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekarademir/ekarademir.github.io.git"
+  },
+  "author": "Ertugrul Karademir <ekarademir@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekarademir/ekarademir.github.io/issues"
+  },
+  "homepage": "https://github.com/ekarademir/ekarademir.github.io#readme"
+}
