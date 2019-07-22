@@ -10,16 +10,12 @@ module.exports = {
                 link: '/'
             },
             {
-                text: 'CV',
-                link: '/cv'
-            },
-            {
                 text: 'Projects',
                 link: '/projects'
             },
             {
-                text: 'Notes',
-                link: '/notes/'
+                text: 'CV',
+                link: '/cv'
             },
             {
                 text: 'GitHub',
