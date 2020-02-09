@@ -1,6 +1,9 @@
 module.exports = {
     title: 'Ertugrul Karademir',
     description: 'Personal Website',
+    plugins: [
+        '@vuepress/last-updated'
+    ],
     themeConfig: {
         search: false,
         lastUpdated: 'Last Updated', // string | boolean
