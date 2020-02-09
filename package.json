@@ -4,7 +4,7 @@
   "description": "Personal Website Built with VuePress",
   "main": "index.js",
   "scripts": {
-    "build": "vuepress build -d dist src && cp -R ./dist/ .",
+    "build": "vuepress build -d dist src && cp -R dist/** .",
     "start": "vuepress dev src"
   },
   "repository": {
@@ -12,9 +12,12 @@
     "url": "git+https://github.com/ekarademir/ekarademir.github.io.git"
   },
   "author": "Ertugrul Karademir <ekarademir@gmail.com>",
-  "license": "ISC",
+  "license": "CC-BY-NC-SA-4.0",
   "bugs": {
     "url": "https://github.com/ekarademir/ekarademir.github.io/issues"
   },
-  "homepage": "https://www.ekarademir.com"
+  "homepage": "https://www.ekarademir.com",
+  "devDependencies": {
+    "vuepress": "^1.3.0"
+  }
 }
