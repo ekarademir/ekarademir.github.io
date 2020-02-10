@@ -7,3 +7,5 @@ pipelines.
 
 I’ve worked on projects pertaining to retail assortments, strategic banking decisions,
 hardware quality assurance, and machine learning adaptation on expense reporting.
+
+[Checkout some open source projects I've worked on.](projects.html)
