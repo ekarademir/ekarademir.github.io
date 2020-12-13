@@ -21,6 +21,13 @@ Some of those projects can be run on browsers so they have their own demo pages.
 
 # Experiments PoCs
 
+## Map-Reduce from scratch using Rust
+[[source](https://github.com/ekarademir/mit-6.684-labs/tree/master/map-reduce)]
+* Done it as a lab assignment for [MIT 6.684 - Distributed
+  Systems](https://pdos.csail.mit.edu/6.824/) lab assignments.
+* Only 8 dependencies outside of Rust std, mostly for HTTP communication and Futures.
+* Invented all the wheels, that's why it's not working reliably :3
+
 ## Kaleidopaint
 [[demo](https://www.ekarademir.com/kaleidopaint-proto/)][[source](https://github.com/ekarademir/kaleidopaint-proto)]
 * Using [p5.js](https://p5js.org/) as the main interaction library.
