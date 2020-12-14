@@ -4,7 +4,7 @@ New iteration of the personal website using Jekyll platform.
 # Development
 ```
 cd jekyll/personal
-bundle exec jekyll serve --livereload
+bundle exec jekyll serve --livereload --future
 ```
 
 Theme is the default [minima](https://github.com/jekyll/minima/tree/v2.5.1)
