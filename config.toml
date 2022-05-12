@@ -1,0 +1,35 @@
+base_url = "https://ekarademir.com"
+compile_sass = false
+build_search_index = false
+theme = "blow"
+title = "Ertugrul Karademir"
+
+[extra]
+enable_sidebar = false
+enable_multilingue = false
+enable_search = false
+
+[extra.navbar]
+items = [
+    { lang = "en", links = [
+    ] },
+]
+title = ""
+
+[extra.index]
+title = "Ertugrul Karademir"
+image = "https://avatars.githubusercontent.com/u/329490"
+image_alt = "Me, Ertugrul"
+
+
+[extra.social]
+github = "https://github.com/ekarademir"
+gitlab = false
+twitter = false
+linkedin = "https://www.linkedin.com/in/ekarademir/"
+email = "ekarademir@gmail.com"
+
+[extra.default_author]
+name = "Ertugrul Karademir"
+avatar = "https://avatars.githubusercontent.com/u/329490"
+avatar_alt = "Me, Ertugrul"
